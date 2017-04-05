@@ -1,9 +1,16 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gcm.Client", "Gcm.Client\Gcm.Client.csproj", "{D8830D3D-13F5-423F-9E98-54E9CE215430}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Samples\Android\Sample.csproj", "{89270FBD-6374-4193-B85D-1B84199EF374}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuspec", "nuspec", "{FCE265FA-B320-4E75-A389-BE21766A6EC2}"
+	ProjectSection(SolutionItems) = preProject
+		nuspec\GCM.Client.nuspec = nuspec\GCM.Client.nuspec
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +18,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{89270FBD-6374-4193-B85D-1B84199EF374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{89270FBD-6374-4193-B85D-1B84199EF374}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{89270FBD-6374-4193-B85D-1B84199EF374}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{89270FBD-6374-4193-B85D-1B84199EF374}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D8830D3D-13F5-423F-9E98-54E9CE215430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D8830D3D-13F5-423F-9E98-54E9CE215430}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8830D3D-13F5-423F-9E98-54E9CE215430}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8830D3D-13F5-423F-9E98-54E9CE215430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89270FBD-6374-4193-B85D-1B84199EF374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89270FBD-6374-4193-B85D-1B84199EF374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89270FBD-6374-4193-B85D-1B84199EF374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89270FBD-6374-4193-B85D-1B84199EF374}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Samples\Android\Sample.csproj

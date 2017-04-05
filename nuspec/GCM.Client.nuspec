@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>GCM.Client</id>
+        <version>1.0.0</version>
+        <title>GCM.Client</title>
+        <authors>Kirill Lyubimov</authors>
+        <licenseUrl>https://github.com/rotorgames/GCM.Client/blob/master/LICENSE.md</licenseUrl>
+        <projectUrl>https://github.com/rotorgames/GCM.Client</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>GCM.Client</description>
+        <copyright>Copyright 2017</copyright>
+        <tags></tags>
+        <dependencies>
+        </dependencies>
+    </metadata>
+    <files>
+        <!-- android -->
+        <file src="..\lib\Android\*"  target="lib\MonoAndroid10\" />
+    </files>
+</package>
+    
